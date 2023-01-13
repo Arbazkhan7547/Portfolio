@@ -1,22 +1,22 @@
 @font-face{
     font-family: "gilory";
     src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:  400;
+    font-weight:400;
 }
 @font-face{
     font-family: "gilory";
     src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:  300;
+    font-weight:300;
 }
 @font-face{
     font-family: "gilory";
     src: url("./fonts/Gilroy-Medium.otf");
-    font-weight:  500;
+    font-weight:500;
 }
 @font-face{
     font-family: "gilory";
     src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:  600;
+    font-weight:600;
 }
 @font-face{
     font-family: "gilory";
@@ -47,51 +47,6 @@
     font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:700;
-}
-@font-face{
-    font-family: "Roxborough CF";
-    src: url("./RoxboroughCF-Regular.ttf");
-    font-weight:  400;
-}
-@font-face{
-    font-family: "Roxborough CF";
-    src: url("./RoxboroughCF-RegularItalic.ttf");
-    font-weight:  500;
-}
-@font-face{
-    font-family: "Roxborough CF";
-    src: url("./RoxboroughCF-RegularItalic.ttf");
-    font-weight:  300;
-}
-@font-face{
-    font-family: "Roxborough CF";
-    src: url("./RoxboroughCF-RegularItalic.ttf");
-    font-weight:  100;
-}
-@font-face{
-    font-family: "Roobert";
-    src: url("./Roobert-Medium.ttf");
-    font-weight: 500;
-}
-@font-face{
-    font-family: "Roobert";
-    src: url("./Roobert-Regular.ttf");
-    font-weight: 400;
-}
-@font-face{
-    font-family: "harmond";
-    src: url("./Harmond-Regular.ttf");
-    font-weight: 700;
-}
-@font-face{
-    font-family: "harmond";
-    src: url("./Harmond-Regular.ttf");
-    font-weight: 500;
-}
-@font-face{
-    font-family: "harmond";
-    src: url("./Harmond-Regular.ttf");
-    font-weight: 400;
 }
 
 *{
@@ -222,6 +177,7 @@ html,body{
     text-transform: capitalize;
     font-family:gilroy;
     font-size: 2vw;
+    font-weight: 500;
 }
  #logo h6{
     color: #a9ada9;
