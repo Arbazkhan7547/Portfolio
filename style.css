@@ -48,6 +48,11 @@
     src: url("./FHGiselle-Regular.ttf");
     font-weight:700;
 }
+@font-face{
+    font-family:"FH Giselle";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:900;
+}
 
 *{
     margin: 0;
@@ -252,7 +257,7 @@ html,body{
 #part1 #text .h1s h1{
     color: #fff;
     font-size: 7vw;
-    font-weight: 700;
+    font-weight: 900;
     line-height: .9;
     font-family: gilroy;
     font-family:"FH Giselle";
