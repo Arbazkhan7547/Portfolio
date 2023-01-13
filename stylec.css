@@ -1,0 +1,444 @@
+@font-face{
+    font-family: "gilory";
+    src: url("./fonts/Gilroy-Regular.otf");
+    font-weight:  400;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./fonts/Gilroy-Regular.otf");
+    font-weight:  300;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./fonts/Gilroy-Medium.otf");
+    font-weight:  500;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./fonts/Gilroy-Bold.otf");
+    font-weight:  600;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./fonts/Gilroy-Bold.otf");
+    font-weight:700;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:400;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:300;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:500;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:600;
+}
+@font-face{
+    font-family: "gilory";
+    src: url("./FHGiselle-Regular.ttf");
+    font-weight:700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#mobilenav{
+    position: relative;
+    display: none;
+    position: fixed;
+    z-index: 99999999999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(28,29,28);
+
+}
+#mobilenav #logo i{
+    color: #fff;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 14vw;
+
+}
+
+#mobilenav .socials{
+    padding-top: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5vw;
+}
+ 
+ #mobilenav .socials a{
+    text-decoration: none;
+    color: #8d8c93;
+    display: inline-block;
+    color: #fff;
+}
+#mobilenav .socials a:hover i{
+    color: #0dd0b3;
+}
+.mobileicon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: fit-content;
+     height: 5vh;
+}
+.mobileicon i{
+    display: none;
+    font-size: 10vw;
+    color: #fff;
+}
+
+#fs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 12%;
+    position: fixed;
+    z-index: 9999999999;
+    width: 0%;
+    height: 100%;
+    background-color:#1d1d1d;
+    background-color: #000;
+}
+
+
+#fs #logo{
+    margin-right: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family:"FH Giselle";
+}
+#prj{
+    color: #0dd0b3;
+}
+#fs #logo img{
+    width: 20%;
+    height: 80%;
+    opacity: 0;
+}
+#main{
+    width: 100%;
+    overflow: hidden;
+    background-color: #1c1d1c;
+    background-color: rgb(28,29,28);
+}
+#part1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    min-height: 100vh;
+}
+#part1 #nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 12%;
+    height: 100vh;
+    background-color: #191819;
+}
+ #logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family:"FH Giselle";
+    width: 100%;
+    height: 30%;
+    background-color: #000;
+}
+ #logo img{
+    width: 70%;
+    height: 50%;
+    margin-top: -30px;
+}
+ #logo h5{
+    margin-top: -30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family:gilroy;
+    font-size: 2vw;
+}
+ #logo h6{
+    color: #a9ada9;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.2vw;
+}
+.navrows{
+    margin-top: 10vh;
+    width: 100%;
+}
+.navrows .rows{
+    margin: 0 auto;
+    border-bottom:.1px solid #6d706d;
+    border-top:.1px solid #6d706d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height:10vh;
+}
+.rows h5{
+    color: #878b8a;
+    text-transform: capitalize;
+    font-family: gilroy;
+    font-size: 1.4vw;
+    font-weight: 500;
+    color: #fff;
+}
+.rows h5:hover{
+    color: #0dd0b3;
+}
+#nav .socials{
+    padding-top: 1.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5vw;
+}
+#abt{
+    color: #0dd0b3;
+}
+ 
+ #nav .socials a{
+    text-decoration: none;
+    color: #8d8c93;
+    display: inline-block;
+    color: #fff;
+}
+#nav .socials a:hover i{
+    color: #0dd0b3;
+}
+
+#part1 #text{
+    width: 88%;
+    height: 100vh;
+    margin-left:4vw;
+}
+
+  .text{
+    padding: 2vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+}
+  .text h1{
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: roobert;
+    color: #fff;
+}
+#t1{
+    transform: translateY(-300%);
+}
+#t2{
+    transform: translateY(300%);
+}
+  .text h1>span{
+   display: inline-block;
+}
+  .text #t1{
+    font-family:"Roxborough CF";
+    font-style: italic;
+    font-size: 6vw;
+}
+
+.bottom .social{
+    overflow: hidden;
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.social a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-family: roobert;
+    opacity: 0;
+}
+.social h3{
+    color: #fff;
+    font-weight: 500;
+    color: #fff;
+    opacity: 0;
+    font-family: roobert;
+    text-transform: capitalize;
+}
+.social .s1{
+    height: 3vh;
+    position: relative;
+    width: fit-content;
+    margin-bottom: .2vw;
+    overflow: hidden;
+}
+
+.social .s1 .line{
+    position: absolute;
+    width: 0%;
+    height: .2px;
+    background-color:#fff;
+}
+.social .s1 .line1{
+    position: absolute;
+    width: 0%;
+    height: .2px;
+    background-color:#fff;
+}
+a{
+    text-decoration: none;
+}
+.bottom{
+    padding-left: 3vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-between; 
+    width: 100%;
+    height: 40vh;
+}
+ 
+#s2{
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+#b1{
+    padding: 2vw;
+    display: flex;
+    gap: 5vw;
+}
+.header{
+    overflow: hidden;
+    margin-top: 5vw;
+    padding-left: 3vw;
+}
+.header h1{
+    color: #0dd0b3;
+    margin-bottom: 10px;
+    font-size: 4vw;
+    text-transform: capitalize;
+    font-family:"FH Giselle";
+    transform: translateY(-100%);
+
+}
+.header h5{
+    transform: translateY(100%);
+    color: #fff;
+    width: 60%;
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-family:"FH Giselle";
+
+}
+#s4{
+    gap: 5.7vw;
+}
+@media (max-width:600px){
+    #nav{
+        display: none;
+        background-color: #fff;
+    }
+    #mobilenav #logo h5{
+        font-size: 8vw;
+    }
+    #mobilenav #logo h6{
+        font-size: 6vw;
+    }
+    #mobilenav #logo img{
+        width: 50%;
+        margin-left: 15vw;
+    }
+    #mobilenav .rows h5{
+        font-size: 7vw;
+    }
+    #part1 #text{
+        width: 95%;
+    }
+    #mobilenav .socials a{
+        margin-top: 5vw;
+        font-size: 7vw;
+    }
+    .mobileicon i{
+        display: initial;
+    }
+    .header{
+        margin-top: 30vw;
+    }
+    .header h1{
+        font-size: 15vw;
+    }
+    .header h5{
+        margin-top: 5vw;
+        width: 100%;
+        font-size: 8vw;
+    }
+    #fs{
+        left: 0;
+    }
+    #fs #logo img{
+        width: 60%;
+        margin-left: 15vw;
+    }
+    .text{
+        gap: 3vw;
+        margin-top: 15vw;
+    }
+    .text #t1{
+        font-size: 8vw;
+    }
+    .text h1{
+        font-size: 8vw;
+    }
+    .bottom{
+        margin-top: 10vw;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5vw;
+        justify-content: flex-start;
+    }
+    #s1{
+        gap: 15vw;
+    }
+    #s1 h3{
+       margin-left: 3vw;
+    }
+    #s3{
+        gap: 10vw;
+    }
+    #s4{
+        gap: 16vw;
+    }
+   
+}
+
+ 
