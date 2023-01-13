@@ -465,6 +465,8 @@ svg {
         left: 0;
     }
     #fs #logo img{
+        width: 20%;
+        height: 90%;
         margin-left: 15vw;
     }
     #part1{
