@@ -24,29 +24,74 @@
     font-weight:700;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:400;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:300;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:500;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:600;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:700;
+}
+@font-face{
+    font-family: "Roxborough CF";
+    src: url("./RoxboroughCF-Regular.ttf");
+    font-weight:  400;
+}
+@font-face{
+    font-family: "Roxborough CF";
+    src: url("./RoxboroughCF-RegularItalic.ttf");
+    font-weight:  500;
+}
+@font-face{
+    font-family: "Roxborough CF";
+    src: url("./RoxboroughCF-RegularItalic.ttf");
+    font-weight:  300;
+}
+@font-face{
+    font-family: "Roxborough CF";
+    src: url("./RoxboroughCF-RegularItalic.ttf");
+    font-weight:  100;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 500;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 400;
+}
+@font-face{
+    font-family: "harmond";
+    src: url("./Harmond-Regular.ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "harmond";
+    src: url("./Harmond-Regular.ttf");
+    font-weight: 500;
+}
+@font-face{
+    font-family: "harmond";
+    src: url("./Harmond-Regular.ttf");
+    font-weight: 400;
 }
 *{
     margin: 0;
