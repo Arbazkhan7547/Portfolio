@@ -413,7 +413,8 @@ a{
     width: 100%;
 }
 .button:hover h5{
-    color: #fff;
+    color: #000;
+    font-weight:900;
 }
 
 .bottom{
