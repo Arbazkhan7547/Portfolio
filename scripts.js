@@ -1,3 +1,4 @@
+
 function homepage(){
 
 var tl = gsap.timeline();
@@ -19,20 +20,24 @@ to("#fs",{
 })
 
 }
+
 function mobilenav(){
 
     document.querySelector(".mobileicon i")
     .addEventListener("click",function(elem){
-       document.querySelector("#mobilenav").style.display = "initial";
+       document.querySelector("#mobilenav").style. transform ="translateX(0)";
+       document.querySelector("#mobilenav #logo i").style.display="initial";
+       document.querySelector(".mobileicon i").style.display ="none";
     })
     
-    document.querySelector("#mobilenav i")
+    document.querySelector("#mobilenav #logo i")
     .addEventListener("click",function(elem){
-       document.querySelector("#mobilenav").style.display = "none";
+       document.querySelector("#mobilenav").style. transform ="translateX(100%)";
+       document.querySelector("#mobilenav #logo i").style.display="none";
+       document.querySelector(".mobileicon i").style.display ="initial";
     })
     
-}
-
+ }
 
 homepage();
 mobilenav();

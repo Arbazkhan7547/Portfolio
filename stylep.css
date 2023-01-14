@@ -1,25 +1,25 @@
 @font-face{
-    font-family: "gilory";
+    font-family:gilory;
     src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:  400;
+    font-weight:400;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:gilory;
     src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:  300;
+    font-weight:300;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:gilory;
     src: url("./fonts/Gilroy-Medium.otf");
-    font-weight:  500;
+    font-weight:500;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:gilory;
     src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:  600;
+    font-weight:600;
 }
 @font-face{
-    font-family: "gilory";
+    font-family:gilory;
     src: url("./fonts/Gilroy-Bold.otf");
     font-weight:700;
 }
@@ -109,7 +109,8 @@ html,body{
 
 #mobilenav{
     position: relative;
-    display: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transform: translateX(100%);
     position: fixed;
     z-index: 99999999999999;
     width: 100%;
@@ -299,7 +300,6 @@ a{
 }
 
 #page6 h1 {
-    /* text-align: center; */
     font-size: 4.6vmax;
     text-transform: capitalize;
     font-family: gilroy;
@@ -403,16 +403,14 @@ a{
     }
 
     #page6 h1 {
-        /* text-align: center; */
         font-size: 4vmax;
-        font-family: gilroy;
         margin-top: 0vmax;
         margin-bottom: 5vmax;
     }
 
     #page6 h1 span {
         color: #F6BA53;
-        font-family: gilroy;
+        font-weight: 500;
     }
 
     #artworks a {
@@ -482,7 +480,7 @@ a{
         font-size: 6vw;
     }
     #mobilenav #logo img{
-        width: 50%;
+        width: 30%;
     }
     #mobilenav .rows h5{
         font-size: 7vw;
@@ -521,6 +519,7 @@ a{
     }
     #fs #logo img{
         width: 60%;
+        height: 90%;
         margin-left: 15vw;
     }
 
