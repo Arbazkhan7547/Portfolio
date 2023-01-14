@@ -1,4 +1,24 @@
 @font-face{
+    font-family: Shaloems;
+    src: url("./Shaloems.ttf");
+    font-weight:500;
+}
+@font-face{
+    font-family:gilory;
+    src: url("./fonts/Gilroy-Regular.otf");
+    font-weight:100;
+}
+@font-face{
+    font-family:gilory;
+    src: url("./fonts/Gilroy-Regular.otf");
+    font-weight:200;
+}
+@font-face{
+    font-family:gilory;
+    src: url("./fonts/Gilroy-Regular.otf");
+    font-weight:300;
+}
+@font-face{
     font-family:gilory;
     src: url("./fonts/Gilroy-Regular.otf");
     font-weight:400;
@@ -22,6 +42,16 @@
     font-family:gilory;
     src: url("./fonts/Gilroy-Bold.otf");
     font-weight:700;
+}
+@font-face{
+    font-family:gilory;
+    src: url("./fonts/Gilroy-Bold.otf");
+    font-weight:800;
+}
+@font-face{
+    font-family:gilory;
+    src: url("./fonts/Gilroy-Bold.otf");
+    font-weight:900;
 }
 @font-face{
     font-family:"FH Giselle";
@@ -64,6 +94,7 @@ html,body{
     height: 100%;
 }
 #mobilenav{
+    font-family:gilroy;
     transition: all cubic-bezier(0.19, 1, 0.22, 1)1s;
     transform: translateX(100%);
     position: relative;
@@ -80,10 +111,11 @@ html,body{
     right: 10px;
     top: 10px;
     font-size: 14vw;
-
+    font-family:gilroy;
 }
 
 #mobilenav .socials{
+    font-family:gilroy;
     padding-top: 1.7vw;
     display: flex;
     align-items: center;
@@ -93,15 +125,18 @@ html,body{
 }
  
  #mobilenav .socials a{
+    font-family:gilroy;
     text-decoration: none;
     color: #8d8c93;
     display: inline-block;
     color: #fff;
 }
 #mobilenav .socials a:hover i{
+    font-family:gilroy;
     color: #0dd0b3;
 }
 .mobileicon{
+    font-family:gilroy;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -109,6 +144,7 @@ html,body{
      height: 5vh;
 }
 .mobileicon i{
+    font-family:gilroy;
     display: none;
     font-size: 10vw;
     color: #fff;
@@ -141,11 +177,9 @@ html,body{
 #main{
     width: 100%;
     overflow: hidden;
-    background-color: #1c1d1c;
     background-color: rgb(28,29,28);
 }
-#part1{
-    
+#part1{ 
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -193,6 +227,7 @@ html,body{
     font-size: 1.2vw;
 }
 .navrows{
+    font-family:gilroy;
     margin-top: 10vh;
     width: 100%;
 }
@@ -202,14 +237,16 @@ html,body{
     border-top:.1px solid #6d706d;
     display: flex;
     align-items: center;
+    font-family:gilroy;
     justify-content: center;
     width: 90%;
     height:10vh;
+    font-family:gilroy;
 }
 .rows h5{
     color: #878b8a;
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family:gilroy;
     font-size: 1.4vw;
     font-weight: 500;
     color: #fff;
@@ -218,6 +255,7 @@ html,body{
     color: #0dd0b3;
 }
 #nav .socials{
+    font-family:gilroy;
     padding-top: 1.7vw;
     display: flex;
     align-items: center;
@@ -227,6 +265,7 @@ html,body{
 }
  
  #nav .socials a{
+    font-family:gilroy;
     text-decoration: none;
     color: #8d8c93;
     display: inline-block;
@@ -260,7 +299,6 @@ html,body{
     font-size: 7vw;
     font-weight: 900;
     line-height: .9;
-    font-family: gilroy;
     font-family:"FH Giselle";
 }
 
@@ -308,7 +346,7 @@ svg {
     -o-transition: none;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: gilroy;
+    font-family:gilroy;
     transition: none;
     margin-left: 5px;
     pointer-events: auto;
@@ -355,7 +393,7 @@ a{
     z-index: 999;
    color: #fff;
    text-transform: capitalize;
-   font-family: gilroy;
+   font-family:gilroy;
    color: #09fdd9;
    letter-spacing: 3px;
    font-size: 1.1vw;
@@ -396,7 +434,7 @@ a{
 .scroll h5{
     color: #fff;
     text-transform:capitalize;
-    font-family: gilroy;
+    font-family:gilroy;
     font-weight: 500;
 }
 .scroll i{
@@ -410,18 +448,18 @@ a{
 .text2{
     padding-right: 3vw;
     display: flex;
-    align-items: flex-end;
+    align-items:flex-end;
     justify-content: space-between;
     gap: 15px;
 }
 .text2 h1{
     margin-bottom: 2vw;
     color: #09fdd9;
-    text-transform: capitalize;
-    font-family: gilroy;
-    text-align: left;
+    text-transform:capitalize;
+    font-family:gilroy;
+    text-align:left;
     font-size: 5vw;
-    font-weight: 700;
+    font-weight:700;
     font-family:"Open Sans",sans-serif;
 }
  
@@ -437,10 +475,9 @@ a{
 }
 .text2 h5 span{
         font-size: 70px;
-        font-weight:500;
         color: #EF6A93;
-        font-family: Shaloems;
-    
+        font-family:Shaloems;
+         font-weight:500;
 }
 .text2 #p{
     text-align: left;
