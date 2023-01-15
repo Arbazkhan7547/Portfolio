@@ -1,54 +1,4 @@
 @font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:100;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:200;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:300;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:400;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Regular.otf");
-    font-weight:300;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Medium.otf");
-    font-weight:500;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:600;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:700;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:800;
-}
-@font-face{
-    font-family:gilory;
-    src: url("./fonts/Gilroy-Bold.otf");
-    font-weight:900;
-}
-@font-face{
     font-family:"FH Giselle";
     src: url("./FHGiselle-Regular.ttf");
     font-weight:400;
@@ -96,12 +46,47 @@
 @font-face{
     font-family: "Roobert";
     src: url("./Roobert-Medium.ttf");
+    font-weight: 600;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
     font-weight: 500;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 700;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 800;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Medium.ttf");
+    font-weight: 900;
 }
 @font-face{
     font-family: "Roobert";
     src: url("./Roobert-Regular.ttf");
     font-weight: 400;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 200;
+}
+@font-face{
+    font-family: "Roobert";
+    src: url("./Roobert-Regular.ttf");
+    font-weight: 100;
 }
 @font-face{
     font-family: "harmond";
@@ -254,7 +239,7 @@ html,body{
     margin-top: -30px;
     color: #fff;
     text-transform: capitalize;
-    font-family:gilroy;
+    font-family: roobert;
     font-size: 2vw;
 }
  #logo h6{
@@ -281,7 +266,7 @@ html,body{
 .rows h5{
     color: #878b8a;
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family: roobert;
     font-size: 1.4vw;
     font-weight: 500;
     color: #fff;
@@ -314,7 +299,7 @@ html,body{
 a{
     text-decoration: none;
     color: #fff;
-    font-family: gilroy;
+    font-family: roobert;
 }
 #page6 {
     background-color: #222;
@@ -327,7 +312,7 @@ a{
 #page6 h1 {
     font-size: 4.6vmax;
     text-transform: capitalize;
-    font-family: gilroy;
+    font-family: roobert;
     margin-top: 1vmax;
     margin-bottom: 3.5vmax;
     color: #fff;
@@ -336,7 +321,7 @@ a{
 
 #page6 h1 span {
     color: #F6BA53;
-    font-family: gilroy;
+    font-family: roobert;
 }
 
 #artworks a {
@@ -366,7 +351,7 @@ a{
 #artworks a h5 {
     font-size: 1.8vmax;
     font-weight: 600;
-    font-family: gilroy;
+    font-family: roobert;
     width: 30%;
     position: relative;
     transition: color ease-in 0.4s;
